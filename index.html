@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Awesome Books</title>
 </head>
 <body>
@@ -23,7 +23,7 @@
       </div>           
     </nav>
   </header>
-    <div class="date">
+    <div class="date" id="date">
       Date
     </div>
     <br>
@@ -32,8 +32,8 @@
       <div class="awesome-books" id="awesome-books">
         <h2>Add a new Book</h2>
         <form name="book" id="form">
-          <input type="text" id="title" name="title" placeholder="Title" required><br><br>
-          <input type="text" id="author" name="title" placeholder="Author" required><br><br>
+          <input type="text" id="title" name="title" placeholder="Title"><br><br>
+          <input type="text" id="author" name="title" placeholder="Author"><br><br>
           <button type="submit" id="btn" class="btn">Add</button>
         </form>
       </div>
@@ -49,6 +49,6 @@
       <footer>
         <h3>Copyright @ Awesome Books store</h3>
       </footer>
-  <script src="main.js"></script>
+  <script type="module" src="./index.js"></script>
 </body>
 </html>
